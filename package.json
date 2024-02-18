@@ -1,0 +1,24 @@
+{
+  "name": "gpt-code-execute",
+  "version": "0.0.1",
+  "description": "gpt-code-execute is aimed to be the next generation programming language that uses natural language to execute code by utilizing gpt that translates intent into computer executable task",
+  "main": "dist/index.js",
+  "repository": "https://github.com/ghabxph/gpt-code-execute.git",
+  "author": "ghabxph <11975597+ghabxph@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx jest",
+    "watch:build": "npx tsc --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.19",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "openai": "^4.28.0"
+  }
+}
